@@ -5,7 +5,7 @@ import {
   max,
   slice,
   take,
-} from '../exercise1.curry'
+} from '../chapters/exercise1.curry'
 
 test('Refactor to remove all arguments by partially applying the function.', () =>
   expect(words('Jingle bells Batman smells')).toEqual([
