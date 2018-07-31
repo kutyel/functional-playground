@@ -1,5 +1,9 @@
 import { test } from 'ramda'
 
+// 3096-xxxx-xxx-xxxx -> Diners
+// 49173-xxxx-xxx-xxxx -> Visa Electron
+// 5500-xxxx-xxxxx-xxxx -> Mastercard
+
 export default [
   ['Diners - Carte Blanche|diners', test(/^30[0-5]/)],
   ['Diners|diners', test(/^(30[6-9]|36|38)/)],
